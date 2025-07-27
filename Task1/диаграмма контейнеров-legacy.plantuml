@@ -1,0 +1,60 @@
+@startuml
+
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Container.puml
+
+Title Архитектура  состояния системы компании «Будущее 2.0». \n Бизнес разрешил на некоторое время сохранить легаси-системы в отдельных доменах
+
+Person(user, "Бизнес-пользователь", "Бизнес-пользователь нового бизнеса компании")
+Person(userLegacy, "Бизнес-пользователь", "Бизнес-пользователь существующего бизнеса компании")
+Person(operator, "Оператор", "Оператор клиники")
+
+System_Boundary(b0, "Компания «Будущее 2.0»") {
+    Container(webPortal, "Портал самообслуживания", "Web Application", "Портал для создания отчетов и анализа данных")
+
+    System_Boundary(b1, "Техническая реализация Data Mesh") {
+      ContainerDb(dlh, "Data Lakehouse", "S3-совместимое хранилище", "Хранилище данных для  данных")
+      ContainerDb(dc, "Data Catalog", "Nessie", "Управление метаданными")
+      ContainerQueue(queueData, "Слой загрузки данных", "ETL/ELT", "")
+    }
+
+
+    System_Boundary(b2, "Источники данных") {
+      Container(newServices, "Новые сервисы", "..", "Сервисы, появляющиеся в связи с расширением бизнеса")
+      Container(eqServices, "Сервисы по работе с оборудованием", "...", "Сервисы компании, которая производит электронику для медицинского оборудования")
+      Container(creditServices, "Сервисы банка", "...", "Сервисы для лказания банковских услуг клиентам")
+      Container(farmServices, "Фармацевтика", "...", "Сервисы фарм-компании")
+
+    }
+
+     System_Boundary(b3, "Legacy") {
+      Container(clientOp, "Клиентский интерфейс оператора", "...", "Сервисы для работы оператора")
+      Container(innerServices, "Внутренние сервисы", "..", "Сервисы для финансовых операций и обслуживания клиентов")
+      Container(fintechServices, "Финансовые сервисы", "Golang/Java", "Сервисы для финансовых операций и обслуживания клиентов")
+      Container(aiServices, "ИИ-сервисы", "Python", "Сервисы для обработки и анализа медицинских данных")
+      Container(biServices, "BI-система", "Power BI", "Сервисы для построения отчетов")
+      ContainerDb(dwh, "Data Warehouse", "MS SQL Server", "Исторические данные компании «Будущее 2.0» ")
+      ContainerQueue(bus, "Шина данных", "Apache Camel", "Слой интеграций через старую шину данных")
+     }
+}
+
+Rel(operator, clientOp, "Использует для анализа данных")
+Rel(user, webPortal, "Использует для анализа данных")
+Rel(webPortal, dc, "Доступ к данным")
+Rel(clientOp, dwh, "Доступ к данным")
+Rel(bus, dwh, "Доступ к данным")
+Rel(dwh, bus, "Доступ к данным")
+Rel(biServices, dwh, "Доступ к медицинским данным")
+Rel(userLegacy, biServices, "Доступ к аналитике")
+Rel(dc, dlh, "Доступ к данным")
+Rel(aiServices, bus, "Доступ к данным ")
+Rel(fintechServices, bus, "Обработка финансовых данных и предоставление отчетности")
+Rel(innerServices, bus, "Управление клиниками")
+
+Rel(newServices, queueData, "Данные сервисов из новых доменов")
+Rel(farmServices, queueData, "Фармацевтические данные")
+Rel(creditServices, queueData, "Финансовые  данные")
+Rel(eqServices, queueData, "Данные о производстве оборудования")
+Rel(queueData, dlh, "Данные")
+Rel(queueData, dc, "Метаданные")
+
+@enduml
