@@ -1,0 +1,103 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
+  <diagram name="Page-1" id="r0TS_-dle6fJbJrweNkd">
+    <mxGraphModel dx="1941" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-1" value="Разделение бизнеса на домены" style="text;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-2" value="Деление на &#xa;команды" style="text;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="180" y="170" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-3" value="Руководство" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="170" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-4" value="Архитектор" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="120" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-5" value="Разработка &#xa;стандартов &#xa;и политик" style="text;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="180" y="220" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-6" value="Архитектор" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="220" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-7" value="Внедрение инструментов &#xa;управления данными:&#xa;создание витрины данных" style="text;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-8" value="Комментарии:&#xa;1) RoadMap опирается на внедрение подхода DataMesh&#xa;&#xa;&#xa;Цель каждого из этапов:&#xa;1) Разделение бизнеса на домены:&#xa;Помогает выделить ответственные области, каждая из которых будет иметь свою собственную команду, фокусируясь на конкретных бизнес-задачах и потребностях. Упрощает понимание и управление данными в каждом домене.&#xa;&#xa;2) Деление на команды:&#xa;Создание команд, которые будут работать над конкретными аспектами реализации Data Mesh. Это способствует ускорению разработки и  повышению ответственности команд за свои продукты.&#xa;&#xa;3) Разработка стандартов и политик:&#xa;Установление четких стандартов и политик управления данными необходимо для соблюдения качества и согласованности данных между доменами. Это обеспечивает единое понимание подходов к работе с данными и соблюдение норм и правил.&#xa;&#xa;4) Подготовка инфраструктуры:&#xa;Подготовка манифестов и развертывание необходимой инфраструктуры для работы DLH. &#xa;&#xa;5) Внедрение инструментов управления данными: &#xa;Витрина данных служит центральной точкой доступа к данным для пользователей и систем. Это позволяет командам сосредоточиться на своих доменах.&#xa;&#xa;6) Миграция данных из DWH в DLH:&#xa;Позволяет интегрировать и хранить различные форматы данных в одной системе.  Миграция делится на два этапа - тестовая,  необходимая для разработки решений и целевая миграция для ввода в работу готовых сервисов.&#xa;&#xa;7) Интеграция существующих сервисов с новой платформой:&#xa;Необходимо, чтобы все внутренние сервисы имели доступ к новым данным и могли функционировать на новой платформе.&#xa;&#xa;8) НТ решения:&#xa;Выявление узких мест в производительности для оптимизации решения." style="text;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="750" width="540" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-9" value="RoadMap компании «Будущее 2.0»" style="text;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="10" width="890" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-10" value="Q1" style="text;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-11" value="Q2" style="text;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="280" y="70" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-12" value="Q3" style="text;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="480" y="70" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-13" value="Q4" style="text;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="680" y="70" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-14" value="Перевод финтеха &#xa;на новую платформу " style="text;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="421" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-15" value="Интеграция фарм-компаний&#xa; с новой платформой" style="text;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="471" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-16" value="Интеграция компании по &#xa;производству оборудования&#xa;с новой платформой" style="text;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="521" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-17" value="Подготовка &#xa;инфраструктуры, &#xa;требуется увеличение КТС" style="text;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="270" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-18" value="НТ решения" style="text;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="800" y="421" width="80" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-19" value="Интеграция внутренних сервисов&#xa;с новой платформой" style="text;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="571" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-20" value="Перевод ИИ-аналитики&#xa;на новую платформу " style="text;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="621" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-21" value="Перевод интерфейсов операторов&#xa;на новую платформу " style="text;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="671" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-22" value="Миграция данных &#xa;из DWH в  DLH" style="text;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="440" y="370" width="440" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-23" value="DevOps-инженеры" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="270" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-24" value="Команды разработки" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="370" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-25" value="Архитектор, команды разработки" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="320" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-26" value="Команда разработки финтеха" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="420" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-27" value="Команда разработки фарм-компаний" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="470" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-28" value="Команда разработки учета оборудования" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="520" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-29" value="Команды разработки внутренних сервисов" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="570" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-30" value="Аналитики данных" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="620" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O1dJWUVoOlsaksTnJrXj-31" value="Команда разработки&amp;nbsp;&lt;span style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;интер-&lt;br&gt;фейсов&amp;nbsp;&lt;/span&gt;оператора" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="670" width="130" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
